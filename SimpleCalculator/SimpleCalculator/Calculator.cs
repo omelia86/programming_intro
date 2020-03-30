@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator
 {
-    class Program
+    public class Calculator
     {
-        static void Main(string[] args)
+        public int Sum(int firstNumber, int secondNumber)
         {
-            Calculator myCalculator = new Calculator();
-            int sumResult = myCalculator.Sum(1, 2);
+            var result = firstNumber + secondNumber;
+            return result;
         }
     }
 }
