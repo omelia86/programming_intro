@@ -1,8 +1,20 @@
-#include <QCoreApplication>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <cmath>
 
-int main(int argc, char *argv[])
+using namespace  std;
+
+int main()
 {
-    QCoreApplication a(argc, argv);
-
-    return a.exec();
+    cout <<"open the door\n";
+    cout <<"go out\n";
+    cout <<"close door\n";
+    cout <<"proseed on the stop bus\n";
+    cout <<"go into bus\n";
+    cout <<"seat on the chair\n";
+    cout <<"alight on the school bus stop\n";
 }
+
+
