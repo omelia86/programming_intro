@@ -1,8 +1,21 @@
-#include <QCoreApplication>
+#include <iostream>
 
-int main(int argc, char *argv[])
+using namespace std;
+
+int main()
 {
-    QCoreApplication a(argc, argv);
+    cout << "Please, enter your name and age\n";
+    string first_name;
+    cin >> first_name;
 
-    return a.exec();
+    double age_years;
+    cin >> age_years;
+
+    double age_months;
+    age_months = 12 * age_years;
+    cout << "\n";
+    cout << "\n";
+    cout << age_months;
+    cout << "\n";
+    cout << "\n";
 }
